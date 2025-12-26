@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
-import Layout from './components/Layout.tsx';
-import LandingPage from './components/LandingPage.tsx';
-import ExploreFeed from './components/ExploreFeed.tsx';
-import EarnTasks from './components/EarnTasks.tsx';
-import BoostProfile from './components/BoostProfile.tsx';
-import UserDashboard from './components/UserDashboard.tsx';
-import AdminPanel from './components/AdminPanel.tsx';
-import CommunityCenter from './components/CommunityCenter.tsx';
-import { UserRole, UserProfile } from './types.ts';
-import { translations, Language } from './translations.ts';
+import Layout from './components/Layout';
+import LandingPage from './components/LandingPage';
+import ExploreFeed from './components/ExploreFeed';
+import EarnTasks from './components/EarnTasks';
+import BoostProfile from './components/BoostProfile';
+import UserDashboard from './components/UserDashboard';
+import AdminPanel from './components/AdminPanel';
+import CommunityCenter from './components/CommunityCenter';
+import { UserRole, UserProfile } from './types';
+import { translations, Language } from './translations';
 import { MessageCircle, X, Send, Smartphone } from 'lucide-react';
 
 interface PendingOrder {
